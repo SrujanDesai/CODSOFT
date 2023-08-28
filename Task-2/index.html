@@ -1,0 +1,250 @@
+<!----------------Portfolio Website---------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio website</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/1a9a907f05.js" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/Logo.png" class="logo" />
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p style="font-size: 45px;">Full Stack Web Developer</p>
+        <h1 style="font-size: 65px;">Hi,My Name Is <br /><span> Srujan Desai</span></h1>
+      </div>
+    </div>
+  </div>
+  <!--------------about------------>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/Hero image.jpg" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p style="font-size: 20px;">
+            Hello! I'm Srujan Desai, a passionate web developer from India.
+            With a strong grasp of HTML, CSS, and JavaScript, I craft
+            user-friendly and visually appealing websites. My curiosity drives
+            me to explore front-end frameworks like React.js
+            empowering me to create dynamic web applications. As a lifelong
+            learner, I constantly expand my web development skills and stay
+            updated with the latest trends. I believe in the power of
+            collaboration and innovation to build impactful solutions. Beyond
+            coding, I enjoy outdoor activities, reading, and engaging with
+            tech communities. Let's join forces and make a difference in the
+            web development world!
+          </p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('Skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('Experience')">
+              Experience
+            </p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="Skills">
+            <ul>
+              <li><span>Front-End Web Development</span><br />HTML, CSS, JavaScript, React.js</li>
+              <li><span>Back-End Web Development</span><br />Node.js, Express.js, APIs</li>
+              <li>
+                <span>DataBase</span><br />MongoDB, SQL
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="Experience">
+            <ul>
+              <li>
+                <span>2023 -current</span><br />BE I.T. in GEC, Gandhinagar
+              </li>
+              <li>
+                <span>2023 (13 June-13 July)</span><br />IBM CSRBOX
+                Web Development Fundamental Internship
+              </li>
+              <li>
+                <span>2023(1 August-31 August)</span><br />CODSOFT
+                Web Development Internship
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="Education">
+            <ul>
+              <li>
+                <span>2023-Present</span><br />BE I.T. in GEC, Gandhinagar <br />CGPA: 8.30
+              </li>
+              <li>
+                <span>2020</span><br />H.S.C from Mauni Ankur School Of Science <br />Percentage: 83
+              </li>
+              <li>
+                <span>2018</span><br />S.S.C from P.P.S.V <br />Percentage: 80
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------------------------services------------------------------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Front-End Web Development</h2>
+          <p>
+            HTML (HyperText Markup Language): I'm proficient in creating the structure and content of web pages,
+            ensuring proper organization and semantic meaning. <br><br>
+
+            CSS (Cascading Style Sheets): I excel in styling websites with CSS, enhancing visual appeal, and ensuring
+            responsive design for a seamless user experience across devices. <br> <br>
+
+            JavaScript: I have a solid grasp of JavaScript, enabling me to implement interactive elements and dynamic
+            content, thereby enhancing user engagement. <br> <br>
+
+            React.js: I'm skilled in using React.js, a popular JavaScript library, to build reusable and efficient UI
+            components. This allows me to create complex user interfaces while maintaining code modularity.
+          </p>
+          <a href="#">learn more</a>
+        </div>
+
+        <div>
+          <i class="fa-sharp fa-solid fa-crop"></i>
+          <h2>Back-End Web Development</h2>
+          <p>
+            As a fledgling web developer, I utilize a dynamic backend technology stack to power my portfolio projects.
+            Leveraging Node.js, a versatile JavaScript runtime, enables me to execute server-side code efficiently.
+            <br><br> Express.js, a minimalist web application framework, empowers me to build robust APIs and manage
+            routing effortlessly. These technologies facilitate seamless communication between the frontend and backend,
+            enabling responsive and interactive user experiences. <br><br> By implementing RESTful APIs, I ensure
+            efficient data transmission and integration with various frontend frameworks. My backend setup showcases my
+            proficiency in handling databases, user authentication, and server operations, reflecting my commitment to
+            delivering high-quality web solutions.
+          </p>
+          <a href="#">learn more</a>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-database"></i>
+          <h2>DataBase</h2>
+          <p>
+            MongoDB: Proficient in working with MongoDB, a NoSQL database, to store and manage unstructured data.
+            Skillful in creating flexible schemas using JSON-like documents, allowing for dynamic and scalable data
+            models. Implemented CRUD operations and optimized queries for fast data retrieval, enhancing application
+            performance. <br><br>
+
+            SQL: Experienced in utilizing SQL databases such as MySQL to design, implement, and maintain relational data
+            structures. Proficient in constructing complex queries for data manipulation and retrieval, ensuring data
+            integrity and consistency. Demonstrated ability to optimize database performance through indexing and query
+            optimization techniques. Adept at integrating SQL databases seamlessly with web applications for efficient
+            data-driven functionality.
+          </p>
+          <a href="#">learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!------------------------Portfolio------------------------------->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/workk.jpg" />
+          <div class="layer">
+            <h3>Resume Builder Website</h3>
+            <p>
+              Create professional resumes quickly with our easy-to-use builder. Choose templates, customize content, and
+              download your standout resume in minutes. Get started for free!
+            </p>
+            <a href="#" ><i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/workk.jpg" />
+          <div class="layer">
+            <h3>Snake game</h3>
+            <p>
+              Experience classic fun with our Snake game built using HTML, CSS, and JS. Control the snake, eat fruits,
+              and grow longer. Enjoy timeless gaming excitement!
+            </p>
+            <a href="#" ><i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="images/workk.jpg" />
+          <div class="layer">
+            <h3>Calculator </h3>
+            <p>
+              User-friendly HTML and CSS calculator for basic arithmetic operations. Intuitive design for smooth
+              calculations and visual appeal. Try it now!
+            </p>
+            <a href="#" ><i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+  <!------------------------contact form------------------------------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>srujandesai138@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>9638125118</p>
+          <div class="social-icons">
+            <a href="https://twitter.com/home"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="https://www.linkedin.com/in/srujan-desai-5455a8210/"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+        <a href="images/Resume (1).pdf" download class="btn btn2">Download CV</a>
+
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input type="email" name="Email" placeholder="Your Email" required />
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © Srujan. Made with ❤️</p>
+    </div>
+  </div>
+
+</body>
+
+</html>

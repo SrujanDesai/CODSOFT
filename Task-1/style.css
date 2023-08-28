@@ -1,0 +1,118 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,83,121,0.4598214285714286) 0%, rgba(0,212,255,1) 64%);
+    background-size: cover;
+    background-blend-mode: hard-light;
+    background-position: center;
+}
+
+img{
+    margin-left: 15px ;
+    margin-top: 15px;
+    padding: left 10px; ;
+    width: 200px;
+    height: 75px;
+}
+
+.nav-logo img:hover{
+    padding: left 10px; ;
+    padding: top 20px ;
+    margin-top: 100px;
+    width: 300px;
+    height: 100px;
+    transition: all 0.2s;
+}
+
+
+.nav-links nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.links{
+    display: flex;
+}
+
+.links li{
+    padding: 25px;
+    list-style: none;
+}
+
+.linka{
+    padding: auto;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.link li a:hover{
+    opacity: 0.7;
+}
+
+.linka:hover{
+    opacity: 0.7;
+    color: green;
+}
+
+.fa-bars, .fa-times {
+    display: none !important;
+    color: white;
+}
+
+.about-row-item{
+    display: flex;
+    height: 87vh;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.row-text h1{
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+}
+
+.row-text h4 a{
+    text-decoration: none;
+    color: white;
+}
+
+.row-text h4 a:hover i {
+    margin-left: 10px;
+    transition: all .3s;
+
+}
+
+.row-text h4 {
+    margin: 15px 0 0 0;
+}
+
+.row-text h1:hover {
+    margin-bottom: 15px;
+    color: turquoise !important;
+    transition: all 0.3s;
+}
+
+.row-image img{
+    height: 500px;
+    width: 500px;
+    transform: rotate(32deg);
+    transition: all .3s;
+}
+
+.row-image img:hover{
+    height: 600px;
+    width: 600px;
+    transform: rotate(-10deg);
+    transition: all .3s;
+}
